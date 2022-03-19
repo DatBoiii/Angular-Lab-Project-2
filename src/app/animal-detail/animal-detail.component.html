@@ -1,0 +1,27 @@
+<div *ngIf="animal">
+
+    <h2>{{animal.name | uppercase}} Details</h2>
+    <div><span>id: </span>{{animal.id}}</div>
+    <hr/>
+    <div>
+      <label for="animal-name">Animal name: </label>
+      <input id="animal-name" [(ngModel)]="animal.name" placeholder="Animal name"/>
+      <hr/>
+      <label for="animal-type">Animal Type: </label>
+      <input id="animal-type" [(ngModel)]="animal.type" placeholder="Animal type"/>
+      <hr/>
+      <label for="animal-habitat">Animal Habitat: </label>
+      <input id="animal-habitat" [(ngModel)]="animal.habitat" placeholder="Animal habitat"/>
+      <hr/>
+      <label for="animal-numLegs">Number of Legs: </label>
+      <input id="animal-numLegs" [(ngModel)]="animal.numLegs" placeholder="Animal numLegs"/>
+      <hr/>
+      <label for="animal-canFly">Can Fly?: </label>
+      <input id="animal-canFly" [(ngModel)]="animal.numLegs" placeholder="Animal numLegs"/>
+      <hr/>
+      
+    </div>
+    <button type="button" (click)="goBack()">go back</button>
+    <button type="button" (click)="save()">save</button>
+  
+</div>

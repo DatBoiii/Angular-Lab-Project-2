@@ -1,0 +1,54 @@
+/* HeroesComponent's private CSS styles */
+
+  
+  input {
+    display: block;
+    width: 100%;
+    padding: .5rem;
+    margin: 1rem 0;
+    box-sizing: border-box;
+  }
+  
+  .animals li {
+    position: relative;
+    cursor: pointer;
+    
+  }
+  
+  .animals li:hover {
+    left: .1em;
+  }
+  
+  .animals a {
+    color: #333;
+  }
+  
+  .animals a:hover {
+    color: #2c3a41;
+    background-color: #e6e6e6;
+  }
+  
+  .animals a:active {
+    background-color: #525252;
+    color: #fafafa;
+  }
+  
+
+  
+  .add-button {
+   padding: .5rem 1.5rem;
+   font-size: 1rem;
+   margin-bottom: 2rem;
+  }
+  
+  .add-button:hover {
+    color: white;
+    background-color: #42545C;
+  }
+  
+
+  button.delete:hover {
+    background-color: #525252;
+    color: white;
+  }
+  
